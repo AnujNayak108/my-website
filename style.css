@@ -1,4 +1,5 @@
 body{
     color: aquamarine;
-    background-color: black;
+    background-image: url("backgroundimg.gif");
+    background-size: cover;
 }
