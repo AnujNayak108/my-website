@@ -33,7 +33,7 @@ const NavBar = () => {
     </>
     return (
         <nav>
-            <div className="h-10vh flex justify-between z-50 text-white lg:py-5 px-20 py-4 border-b border-slate-800">
+            <div className="h-10vh flex justify-between z-50 text-white lg:py-5 px-20 py-4 border-b border-slate-800 fixed w-full top-0 left-0">
                 <div className="flex items-center flex-1">
                     <span className="text-3xl font-bold">
                         <FaAutoprefixer className="h-11 w-11"/>
