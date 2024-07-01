@@ -23,7 +23,7 @@ const Banner = () => {
         <div >
             <h1 className="text-[54px] font-semibold mb-4 leading-loading uppercase text-center text-white mt-2">welcome to <span className="text-fuchsia-500">my website</span></h1>
         <div data-aos = "fade-up" id="Home" className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg-text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center ">
-            <div className="h-full lg:py-20 flex flex-col justify-center lg:items-start items-center text-white">
+            <div className="h-full lg:py-20 flex flex-col justify-center lg:items-start items-center text-white text-center">
                 <h2 className="text-[46px] font-semibold mb-2 ml-12 leading-loading uppercase text-fuchsia-600">Anuj nayak</h2>
                 <p className="ml-8 ">Aspiring Engineer | Innovator | Problem Solver</p>
                 <p className="mt-2">Explore my projects, skills, and experiences as I journey through the world of engineering. Dive into my portfolio to see how I apply my passion for technology and innovation to real-world challenges. Let's build the future together!</p>
