@@ -2,7 +2,7 @@ import React from "react"
 
 const Contact = () => {
     return (
-        <section id="Contact" class="bg-slate-900">
+        <section id="Contact" class="bg-slate-900 w-full">
   <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md ">
   <h1 data-aos = "fade-down" className="text-[60px] font-semibold mb-20 leading-normal uppercase text-fuchsia-500 flex justify-center">Contact Me</h1>
       <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Got a technical issue? Want to send feedback about a beta feature? Our just want to connect.</p>

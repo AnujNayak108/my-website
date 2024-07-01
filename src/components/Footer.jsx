@@ -7,7 +7,7 @@ import { FaAutoprefixer } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <footer className="bg-slate-800 text-white lg:px-48 px-4 py-20">
+        <footer className="bg-slate-800 text-white lg:px-48 px-4 py-20 w-full">
             <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-16">
                 <div className="mb-4 md:mb-0">
                     <span className="text-[22px] font-semibold text-fuchsia-800 py-2 uppercase">
