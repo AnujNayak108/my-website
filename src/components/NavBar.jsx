@@ -11,8 +11,8 @@ const NavBar = () => {
         setClick(!click)
     }
     const content = <>
-        <div className="lg:hidden block absolute top-16 w-full left-0 right-0 bg-slate-900 transition">
-            <ul className="text-center text-xl p-20">
+        <div className="lg:hidden block absolute top-16 left-0 right-0 bg-slate-900 transition w-screen overflow-x-hidden">
+            <ul className="text-center text-xl lg:p-20">
             <Link spy={true} smooth={true} to = "Home">
                 <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-700 hover:rounded">Home</li>
             </Link>
@@ -33,13 +33,13 @@ const NavBar = () => {
     </>
     return (
         <nav>
-            <div className="h-10vh flex justify-between z-50 text-white lg:py-5 px-20 py-4 border-b border-slate-800 fixed w-full top-0 left-0">
+            <div className="h-10vh flex justify-between z-50 text-white lg:py-5 lg:px-20 py-4 px-8 border-b border-slate-800 fixed top-0 left-0 w-screen overflow-x-hidden ">
                 <div className="flex items-center flex-1">
                     <span className="text-3xl font-bold">
                         <FaAutoprefixer className="h-11 w-11"/>
                     </span>
                 </div>
-                <div className="lg:flex md:flex lg:flex-1 items-center justify-end font-normal hidden">
+                <div className="lg:flex md:flex lg:flex-1 items-center justify-end font-normal hidden ">
                     <div className="flex-10 uppercase">
                         <ul className="flex gap-8 mr-16 text-[18px]">
                         <Link spy={true} smooth={true} to = "Home">
