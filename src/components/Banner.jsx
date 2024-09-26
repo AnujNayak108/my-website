@@ -20,10 +20,10 @@ const Banner = () => {
     )
 },[])
     return (
-        <div className="pt-20 w-full">
+        <div className="pt-20 px-2 w-screen overflow-x-hidden">
             <h1 className="text-[54px] font-semibold mb-4 leading-loading uppercase text-center text-white mt-2">welcome to <span className="text-fuchsia-500">my website</span></h1>
-        <div data-aos = "fade-up" id="Home" className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center ">
-            <div className="h-full lg:py-20 flex flex-col justify-center items-center text-white text-center">
+        <div data-aos = "fade-up" id="Home" className="lg:px-56 px-2 lg:py-0 text-center gap-5 flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center ">
+            <div className="h-full lg:py-20 px-2 flex flex-col justify-center items-center text-white text-center">
                 <h2 className="text-[46px] font-semibold mb-2 leading-loading uppercase text-fuchsia-600">Anuj nayak</h2>
                 <p className="">Aspiring Engineer | Innovator | Problem Solver</p>
                 <p className="mt-2">Explore my projects, skills, and experiences as I journey through the world of engineering. Dive into my portfolio to see how I apply my passion for technology and innovation to real-world challenges. Let's build the future together!</p>
@@ -46,7 +46,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-            <img data-aos = "fade-right" src={img} width={270} height={270} className="rounded-full border-2 p-1 border-fuchsia-500 img_glow" alt="" />
+            <img data-aos = "fade-right" src={img} width={200} height={200} className="rounded-full border-2 lg:p-1 border-fuchsia-500 img_glow" alt="" />
         </div>
         </div>
     )

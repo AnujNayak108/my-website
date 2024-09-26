@@ -11,7 +11,7 @@ const App = () => {
 
   return (
     <div>
-      <div className="bg-slate-900">
+      <div className="bg-slate-900 lg:w-screen">
         <NavBar />
         <Banner />
         <About />

@@ -16,7 +16,7 @@ import img11 from '../assets/vite.svg';
 
 const Skills = () => {
     return (
-        <div id="Skills" className="p-20 flex flex-col items-center justify-center">
+        <div id="Skills" className="p-20 flex flex-col items-center justify-center w-screen overflow-x-hidden">
             <h1 data-aos = "fade-down" className="text-[60px] font-semibold mb-20 leading-normal uppercase text-fuchsia-500">Skills</h1>
             <div data-aos = "fade-left"className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 justify-around gap-28">
                 <div className="flex flex-col items-center">
